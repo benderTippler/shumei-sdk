@@ -1,0 +1,26 @@
+{
+  "accessKey":"接口认证密钥",
+  "appId":"应用标识",
+  "eventId":"事件标识",
+  "type":"检查的风险类型",
+  "businessType":"检测的业务类型",
+  "data":{
+    "text":"需要检测的文本(200字内效果最佳)",
+    "tokenId":"用户账号标识，建议使用贵司用户 UID(可加密)自行生成 , 标识用户 唯一身份用作灌水和广告等行为维度 风控。 如无用户uid的场景建议使用唯一的 数据标识传值",
+    "lang":"文本内容语言类型",
+    "nickname":"用户昵称",
+    "ip":"ip地址",
+    "deviceId":"数美设备标识",
+    "extra":{
+      "receiveTokenId":"receiveTokenId",
+      "topic":"可为话题编号、书评区编号、论 坛帖子编号 eventId值为 article 必传",
+      "atId":"eventId值为 groupChat 必传用 户在公开场景可以相互@，该参 数用于传入被@用户的tokenId",
+      "room":"直播间/游戏房间编号 N eventId值为 groupChat 时必传",
+      "level":1,
+      "role":"用户角色",
+      "sex": 1,
+      "isTokenSeparate": 0,
+      "passThrough": {}
+    }
+  }
+}

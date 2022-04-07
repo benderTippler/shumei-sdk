@@ -1,0 +1,133 @@
+{
+    "code":1100,
+    "message":"成功",
+    "requestId":"bb917ec5fa11fd02d226fb384968feb1",
+    "riskLevel":"REJECT",
+    "riskLabel1":"ad",
+    "riskLabel2":"lianxifangshi",
+    "riskLabel3":"lianxifangshi",
+    "riskDescription":"广告:联系方式:联系方式",
+    "riskDetail": {
+        "faces": [
+            {
+                "name": "人物名称",
+                "location": [207,522,340,567],
+                "probability": 0.3
+            }
+        ],
+        "objects": [
+            {
+                "name": "标识名称",
+                "location": [207,522,340,567],
+                "probability": 0.3
+            }
+        ],
+        "ocrText": {
+            "text": "识别出的违规文字",
+            "matchedLists": [
+                {
+                    "name": "",
+                    "words": [
+                        {
+                            "word": "违禁词01",
+                            "position":[207,522]
+                        }
+                    ]
+                }
+            ],
+            "riskSegments": {
+                "segment": "高风险内容片段",
+                "position":[207,522]
+            }
+        }
+
+    },
+    "auxInfo":{
+        "segments": 10,
+        "typeVersion": {
+            "POLITICS": "1001001.2",
+            "VIOLENCE": "1001001.2",
+            "BAN": "1001001.2",
+            "PORN": "1001001.2",
+            "MINOR": "1001001.2",
+            "AD": "1001001.2",
+            "SPAM": "1001001.2",
+            "LOGO": "1001001.2",
+            "STAR": "1001001.2",
+            "OCR": "1001001.2",
+            "IMGTEXT": "1001001.2",
+            "SCREEN": "1001001.2",
+            "SCENCE": "1001001.2",
+            "QR": "1001001.2",
+            "FACE": "1001001.2",
+            "QUALITY": "1001001.2",
+            "PORTRAIT": "1001001.2",
+            "ANIMAL": "1001001.2"
+        },
+        "errorCode": 2004,
+        "passThrough": {}
+    },
+    "allLabels":[
+        {
+            "riskLabel1":"ad",
+            "riskLabel2":"jiahaoyou",
+            "riskLabel3":"jiahaoyou",
+            "riskDescription":"广告:加好友:加好友",
+            "probability":0.95559550232975,
+            "riskDetail": {
+                "faces": [
+                    {
+                        "name": "人物名称",
+                        "location": [207,522,340,567],
+                        "probability": 0.3
+                    }
+                ],
+                "objects": [
+                    {
+                        "name": "标识名称",
+                        "location": [207,522,340,567],
+                        "probability": 0.3
+                    }
+                ],
+                "ocrText": {
+                    "text": "识别出的违规文字",
+                    "matchedLists": [
+                        {
+                            "name": "",
+                            "words": [
+                                {
+                                    "word": "违禁词01",
+                                    "position":[207,522]
+                                }
+                            ]
+                        }
+                    ],
+                    "riskSegments": {
+                        "segment": "高风险内容片段",
+                        "position":[207,522]
+                    }
+                }
+
+            }
+        }
+    ],
+    "businessLabels":[
+        {
+            "businessLabel1": "一级业务标签",
+            "businessLabel2": "二级业务标签",
+            "businessLabel3": "三级业务标签",
+            "businessDescription": "标签描述",
+            "businessDetail":{
+                "name": "明星人物名称",
+                "probability": 0.9,
+                "face_ratio": 0.9,
+                "face_num": 10,
+                "location": [207,522,340,567],
+                "person_num": 10,
+                "person_ratio": 0.9
+            },
+            "probability": 0.9,
+            "confidenceLevel":1.9
+        }
+    ]
+}

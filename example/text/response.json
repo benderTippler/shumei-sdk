@@ -1,0 +1,144 @@
+{
+
+    "code":1100,
+    "message":"成功",
+    "requestId":"bb917ec5fa11fd02d226fb384968feb1",
+    "riskLevel":"REJECT",
+    "riskLabel1":"ad",
+    "riskLabel2":"lianxifangshi",
+    "riskLabel3":"lianxifangshi",
+    "riskDescription":"广告:联系方式:联系方式",
+    "riskDetail":{
+        "matchedLists": [
+            {
+                "name": "例子",
+                "words": [
+                    {
+                        "word":"例",
+                        "position": [1,1]
+                    },
+                    {
+                        "word":"子",
+                        "position": [1,2]
+                    }
+                ]
+            },
+            {
+                "name": "位置",
+                "words": [
+                    {
+                        "word":"位",
+                        "position": [2,1]
+                    },
+                    {
+                        "word":"置",
+                        "position": [2,2]
+                    }
+                ]
+            }
+        ],
+        "riskSegments": [
+            {
+                "segment":"高风险内容片段",
+                "position":[1,2]
+            },
+            {
+                "segment":"高风险内容片段",
+                "position":[2,1]
+            }
+        ]
+    },
+    "tokenLabels": {
+        "UGC_account_risk": {
+            "sexy_risk_tokenid": 0.8
+        }
+    },
+    "auxInfo":{
+        "filteredText":"加个好友吧 qq12345",
+        "passThrough": {},
+        "contactResult":[
+            {
+                "contactString":"qq12345",
+                "contactType":2
+            }
+        ]
+    },
+    "allLabels":[
+        {
+            "riskLabel1":"ad",
+            "riskLabel2":"jiahaoyou",
+            "riskLabel3":"jiahaoyou",
+            "riskDescription":"广告:加好友:加好友",
+            "probability":0.95559550232975,
+            "riskDetail":{
+                "matchedLists": [
+                    {
+                        "name": "例子",
+                        "words": [
+                            {
+                                "word":"例",
+                                "position": [1,1]
+                            },
+                            {
+                                "word":"子",
+                                "position": [1,2]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "位置",
+                        "words": [
+                            {
+                                "word":"位",
+                                "position": [2,1]
+                            },
+                            {
+                                "word":"置",
+                                "position": [2,2]
+                            }
+                        ]
+                    }
+                ],
+                "riskSegments": [
+                    {
+                        "segment":"高风险内容片段",
+                        "position":[1,2]
+                    },
+                    {
+                        "segment":"高风险内容片段",
+                        "position":[2,1]
+                    }
+                ]
+            },
+            "riskLevel":"REJECT"
+        }
+    ],
+    "businessLabels":[
+        {
+            "businessLabel1": "一级业务标签",
+            "businessLabel2": "二级业务标签",
+            "businessLabel3": "三级业务标签",
+            "businessDescription": "标签描述",
+            "probability": 0.9,
+            "businessDetail":{}
+        }
+    ],
+    "tokenProfileLabels":[
+        {
+            "label1": "一级标签",
+            "label2": "二级标签",
+            "label3": "三级标签",
+            "description": "标签描述",
+            "timestamp": 1111111111111
+        }
+    ],
+    "tokenRiskLabels":[
+        {
+            "label1": "一级标签",
+            "label2": "二级标签",
+            "label3": "三级标签",
+            "description": "标签描述",
+            "timestamp": 1111111111111
+        }
+    ]
+}
